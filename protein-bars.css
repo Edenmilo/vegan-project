@@ -1,0 +1,392 @@
+#heading {
+    width: 100%;
+    background-color: white;
+    position: sticky;
+    top: 0rem;
+    z-index: 20;
+}
+#discountbar {
+    display: flex;
+    padding: 1%;
+    background-color: rgb(178, 235, 46);
+    font-size: 14px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.vegan-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-message {
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+}
+
+.serch-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 1%;
+}
+
+#storename {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+}
+.menu-items li:hover {
+    color: #64e955;
+    }
+    
+.menu-bar {
+    display: flex;
+    align-items: center;
+
+}
+
+.menu-items {
+    z-index: 1;
+    display: none;
+    position: absolute;
+    top: 9rem;
+    background-color: rgba(195, 193, 193, 0.664);
+    box-sizing: border-box;
+
+}
+
+.menu-bar:hover .menu-items {
+    position: absolute;
+    display: flex;
+}
+.menu-items a {
+    color: #000;
+    text-decoration: none;
+}
+.menu-items li {
+    list-style: none;
+    padding: 0.2rem;
+    border-bottom: rgb(158, 155, 155) 0.1rem solid;
+}
+h2 {
+    display: block;
+    text-align: center;
+}
+
+button {
+    --color: #64e955;
+    font-family: inherit;
+    display: inline-block;
+    width: 10em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 25px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--color);
+   }
+   
+   button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+   }
+   
+   button:hover {
+    color: #fff;
+   }
+   
+   button:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+   }
+   
+   button:hover:before {
+    top: -30px;
+    left: -30px;
+   }
+   
+   button:active:before {
+    background: #64e955;
+    transition: cubic-bezier(1.5s);
+   }
+   #button{
+    display: block;
+    
+
+   }
+   .input{
+  padding: 1vw 4vh;
+  border-radius: 5px;
+   }
+  #email{
+    padding: 1vw;
+    align-items: baseline;
+  }
+  #bottom{
+    background-color:#f2f2f2 ;}
+#social-media ul{ 
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .facebook{
+    padding: 2vw;
+    padding-right: 1vw;
+  }
+  .instegram{
+    padding: 2vw;
+    padding-left: 1vw;
+  }
+  #bar-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+#bar-photo img{
+    width: 75%;
+    height: 17rem;
+}
+#protein-products {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    align-items: stretch;
+}
+#protein-products .protein1:hover {
+    filter: brightness(110%);
+}
+
+#protein-products .protein2:hover {
+    filter: brightness(110%);
+}
+
+#protein-products .protein3:hover {
+    filter: brightness(110%);
+}
+
+#protein-products .protein4:hover {
+    filter: brightness(110%);
+}
+
+#protein-products .protein5:hover {
+    filter: brightness(110%);
+}
+
+#protein-products .protein6:hover {
+    filter: brightness(110%);
+}
+
+#protein-products .protein7:hover {
+    filter: brightness(110%);
+}
+
+#protein-products .protein8:hover {
+    filter: brightness(110%);
+}
+
+.protein-des1 {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-top: 0.01rem solid rgb(135, 158, 118);
+    background-color: rgb(205, 200, 200);
+    flex-direction: column;
+
+}
+
+.protein1 {
+    border: 0.01rem solid rgb(135, 158, 118);
+    display: flex;
+    flex-direction: column;
+    filter: brightness(95%);
+    justify-content: space-between;
+}
+
+.protein-des2 {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-top: 0.01rem solid rgb(135, 158, 118);
+    background-color: rgb(205, 200, 200);
+    flex-direction: column;
+
+}
+
+.protein2 {
+    filter: brightness(95%);
+    border: 0.01rem solid rgb(135, 158, 118);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.protein-des3 {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-top: 0.01rem solid rgb(135, 158, 118);
+    background-color: rgb(205, 200, 200);
+    flex-direction: column;
+
+}
+
+.protein3 {
+    filter: brightness(95%);
+    border: 0.01rem solid rgb(135, 158, 118);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.protein-des4 {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-top: 0.01rem solid rgb(135, 158, 118);
+    background-color: rgb(205, 200, 200);
+    flex-direction: column;
+
+}
+
+.protein4 {
+    filter: brightness(95%);
+    border: 0.01rem solid rgb(135, 158, 118);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.protein-des5 {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-top: 0.01rem solid rgb(135, 158, 118);
+    background-color: rgb(205, 200, 200);
+    flex-direction: column;
+
+}
+
+.protein5 {
+    filter: brightness(95%);
+    border: 0.01rem solid rgb(135, 158, 118);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.protein-des6 {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-top: 0.01rem solid rgb(135, 158, 118);
+    background-color: rgb(205, 200, 200);
+    flex-direction: column;
+
+}
+
+.protein6 {
+    filter: brightness(95%);
+    border: 0.01rem solid rgb(135, 158, 118);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.protein-des7 {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-top: 0.01rem solid rgb(135, 158, 118);
+    background-color: rgb(205, 200, 200);
+    flex-direction: column;
+
+}
+
+.protein7 {
+    filter: brightness(95%);
+    border: 0.01rem solid rgb(135, 158, 118);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.protein-des8 {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-top: 0.01rem solid rgb(135, 158, 118);
+    background-color: rgb(205, 200, 200);
+    flex-direction: column;
+
+}
+
+.protein8 {
+    filter: brightness(95%);
+    border: 0.01rem solid rgb(135, 158, 118);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.protein-img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.protein-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    background-color: white;
+}
+div p {
+    margin: 0%;
+}
+@media screen and (max-width: 862px){
+    #protein-products{  
+          grid-template-columns: repeat(1, 1fr);
+        gap: 0.5rem;
+    
+    }
+}

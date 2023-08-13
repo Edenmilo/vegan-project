@@ -1,0 +1,339 @@
+#heading {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    position: sticky;
+    top: 0rem;
+}
+
+#discountbar {
+    display: flex;
+    padding: 1%;
+    background-color: rgb(178, 235, 46);
+    font-size: 14px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.vegan-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-message {
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+}
+
+.serch-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 1%;
+}
+
+#storename {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+
+}
+.menu-items li:hover {
+color: #64e955;
+}
+.name {
+    display: flex;
+    align-items: center;
+}
+
+.menu-bar {
+    display: flex;
+    align-items: center;
+}
+
+#plantimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#plantimg .img1 {
+    width: 75%;
+    height: 17rem;
+}
+
+#categories {
+    display: block;
+    text-align: center;
+}
+
+
+#theme {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    align-content: center;
+    justify-content: center;
+}
+
+#theme a {
+    text-decoration: none;
+    color:black;
+}
+
+.menu-items a {
+    color: black;
+    text-decoration: none
+}
+
+#theme .pp {
+
+    color: black;
+    display: block;
+    padding: 3rem;
+    border: 0.09rem solid black;
+    text-align: center;
+    background-color: #e0e6f27b;
+    border-radius: 20vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#theme .pb {
+    display: block;
+    padding: 3rem;
+    border: 0.09rem solid black;
+    text-align: center;
+    background-color: #e0e6f27b;
+    border-radius: 20vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#theme .v {
+    display: block;
+    padding: 3rem;
+    border: 0.09rem solid black;
+    text-align: center;
+    background-color: #e0e6f27b;
+    border-radius: 20vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#theme .a {
+    display: block;
+    padding: 3rem;
+    border: 0.09rem solid black;
+    text-align: center;
+    background-color: #e0e6f27b;
+    border-radius: 20vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#theme .pp:hover{
+    background-color: #e0e6f2;
+}
+#theme .pb:hover{
+    background-color: #e0e6f2;
+}
+#theme .v:hover{
+    background-color: #e0e6f2;
+}
+#theme .a:hover{
+    background-color: #e0e6f2;
+}
+#recommended-tx {
+    display: block;
+    text-align: center;
+}
+
+
+#recommended-img {
+    width: 100%;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:1rem ;
+    justify-content: center;
+}
+
+#recommended-img .pp1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: solid black;
+    width: 10rem;
+    padding: 1rem;
+
+
+}
+
+#recommended-img .pp2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: solid black;
+    width: 10rem;
+    padding: 1rem;
+}
+
+#recommended-img .v1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: solid black;
+    width: 10rem;
+    padding: 1rem;
+}
+
+#recommended-img .a1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: solid black;
+    ;
+    width: 10rem;
+    padding: 1rem;
+}
+
+#recommended-img .pp1:hover {
+    background-color: rgba(169, 169, 169, 0.329);
+}
+
+#recommended-img .pp2:hover {
+    background-color: rgba(169, 169, 169, 0.329);
+}
+
+#recommended-img .v1:hover {
+    background-color: rgba(169, 169, 169, 0.329);
+}
+
+#recommended-img .a1:hover {
+    background-color: rgba(169, 169, 169, 0.329);
+}
+
+
+
+.menu-items {
+    display: none;
+    position: absolute;
+    top: 9rem;
+    background-color: rgba(195, 193, 193, 0.664);
+    box-sizing: border-box;
+
+}
+
+.menu-bar:hover .menu-items {
+    display: flex;
+}
+
+.menu-items li {
+    list-style: none;
+    padding: 0.2rem;
+    border-bottom: rgb(158, 155, 155) 0.1rem solid;
+}
+
+button {
+    --color: #64e955;
+    font-family: inherit;
+    display: inline-block;
+    width: 10em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 25px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--color);
+}
+
+button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+button:hover {
+    color: #fff;
+}
+
+button:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+}
+
+button:hover:before {
+    top: -30px;
+    left: -30px;
+}
+
+button:active:before {
+    background: #64e955;
+    transition: cubic-bezier(1.5s);
+}
+
+#button {
+    display: block;
+
+
+}
+
+.input {
+    padding: 1vw 4vh;
+    border-radius: 5px;
+}
+
+#email {
+    padding: 1vw;
+    align-items: baseline;
+}
+
+#bottom {
+    background-color: #f2f2f2;
+}
+
+#social-media ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.facebook {
+    padding: 2vw;
+    padding-right: 1vw;
+}
+
+.instegram {
+    padding: 2vw;
+    padding-left: 1vw;
+}
+@media screen and (max-width: 862px){
+    #theme {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 1rem;}
+    
+    #recommended-img {
+        justify-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 0.2rem;
+    }
+}
